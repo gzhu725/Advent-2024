@@ -27,6 +27,3 @@ for number in left:
   score = number * right.count(number)
   count += score
 print(count)
-
-
-
