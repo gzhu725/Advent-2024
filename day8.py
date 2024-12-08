@@ -37,9 +37,9 @@ for r in range(rows):
                 dc2 = c-c2
                 #dr dc refer to if the potnetial antinode is in line with the two nodes
                 #is (r - r1)/(c -c1) = (r2 - r1)/(c2 - c1)
-                if (d1==2*d2 or d1*2==d2) and 0<=r<rows and 0<=c<cols and (dr1*dc2 == dc1*dr2):
+                if (d1==2*d2 or d1*2==d2) and r >= 0 and r < rows and c >= 0 and c < cols and (dr1*dc2 == dc1*dr2):
                   antinodes.add((r,c))
-                if 0<=r<rows and 0<=c<cols and (dr1*dc2 == dc1*dr2):
+                if  r >= 0 and r < rows and c >= 0 and c < cols and (dr1*dc2 == dc1*dr2):
                   antinodes_2.add((r,c))
 
 print(len(antinodes))
