@@ -44,7 +44,7 @@ for line in lines:
         current_prize.append(p_y + 10000000000000)
         
 
-print(all_things)
+# print(all_things)
 
 # 94a + 22b = 8400
 # 34a + 67b = 5400
