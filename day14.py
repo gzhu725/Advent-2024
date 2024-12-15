@@ -45,6 +45,6 @@ for x, y in final_coords:
         q4 += 1 
 
 print(q1 * q2 * q3 * q4)
-# i got too lazy, prints out the part 2 first multiple times, then part 1 at the bottom
+# i got too lazy, prints out the part 2 first multiple time=, then part 1 at the bottom
 # for item in grid: 
 #   print(''.join(item))
