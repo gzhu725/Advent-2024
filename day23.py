@@ -45,7 +45,9 @@ for t in range(10000):
         flag = False
     if flag:
       clique.append(start)
-  if best is None or len(clique) > len(best):
+  if best is None:
+    best = clique
+  if len(clique) > len(best):
     best = clique
 
 print(','.join(sorted(best)))
