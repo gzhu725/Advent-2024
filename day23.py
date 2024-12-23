@@ -33,8 +33,7 @@ for t in three_interconnected:
 
 print(len(p1))
 
-starts = sorted(edges.keys())
-
+starts = list(edges.keys())
 best = None
 for t in range(10000):
   random.shuffle(starts)
