@@ -1,4 +1,4 @@
-All my solutions to this year's Advent of Code. 
+All my solutions to the 2024 Advent of Code. 
 
 To use the scripts, run
 ```
